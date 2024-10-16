@@ -12,7 +12,7 @@ class Config:
         return value
 
     def use_internal_website(self):
-        value = self._config_data.get("website", "enable_website", fallback="yes")
+        value = self._config_data.get("website", "enable_website", fallback="no")
         if value == "yes":
             return True
         return False

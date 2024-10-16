@@ -24,7 +24,6 @@ landing_page = """<!doctype html>
     <body>
         <p>
             The administrator has disabled built-in web UI for Pokorabi.
-            Maybe you should look for somewhere else.
         </p>
     </body>
 </html>
